@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Make body full height and column layout */
 body {
   margin: 0;
@@ -16,6 +17,13 @@ body {
 /* Main content should grow to fill available space */
 .home, .about, .contact {
   flex: 1; /* takes all remaining space above footer */
+=======
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0f18;
+  color: #e0e0e0;
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
 }
 
 .header {
@@ -52,6 +60,7 @@ nav a:hover {
 .hero-logo {
   width: 180px;
   margin-bottom: 1rem;
+<<<<<<< HEAD
   filter: drop-shadow(0 0 10px rgba(0, 170, 255, 0.3));
   border-radius: 15px;
 }
@@ -60,11 +69,21 @@ nav a:hover {
   color: #00aaff;
 }
 
+=======
+}
+.tagline {
+  font-style: italic;
+  color: #66c2ff;
+}
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
 .summary, .about, .contact {
   padding: 2rem 10%;
   line-height: 1.7;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
 .team-section {
   text-align: center;
   padding: 3rem 1rem;
@@ -76,12 +95,225 @@ nav a:hover {
   gap: 2rem;
 }
 .team-member {
+<<<<<<< HEAD
+=======
+  background: #111927;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.1);
+}
+.team-member img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111927;
+  border-top: 1px solid #222;
+  font-size: 0.9rem;
+  color: #888;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+.contact-form input, .contact-form textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+}
+.contact-form button {
+  padding: 0.8rem;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #0088cc;
+}
+
+.architecture, .agents {
+  padding: 2rem 10%;
+  line-height: 1.7;
+}
+.architecture ul, .agents ul {
+  margin-left: 1.5rem;
+}
+.architecture-diagram {
+  background: #111927;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  color: #66c2ff;
+  box-shadow: 0 0 10px rgba(0,170,255,0.1);
+}
+
+.home {
+  position: relative;
+  color: #e0e0e0;
+  overflow: hidden;
+}
+
+.glass-container {
+  background: rgba(10, 15, 24, 0.65);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  box-shadow: 0 0 40px rgba(0, 170, 255, 0.15);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-logo {
+  width: 160px;
+  filter: drop-shadow(0 0 10px rgba(0, 170, 255, 0.3));
+}
+
+.tagline {
+  color: #00aaff;
+  font-style: italic;
+}
+
+.architecture-diagram {
+  background: rgba(20, 25, 40, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: monospace;
+  color: #66c2ff;
+  white-space: pre-wrap;
+  margin-top: 1rem;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.15);
+}
+
+h3 {
+  color: #00aaff;
+  margin-bottom: 0.8rem;
+  text-shadow: 0 0 10px rgba(0, 170, 255, 0.3);
+}
+
+ul li {
+  margin-bottom: 0.6rem;
+}
+
+.team-member {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+}
+
+/* Global Background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('./assets/ai-bg.jpg'); /* your AI/tech background */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e0e0e0;
+}
+
+/* Container for each section (frosted glass effect) */
+/* Alternating layout for text boxes */
+.text-box {
+  background: rgba(10, 15, 24, 0.6);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 2rem 2.5rem;
+  margin: 3rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 30px rgba(0, 170, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 0; /* default center */
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Even boxes shift right, odd boxes shift left */
+.text-box:nth-child(even) {
+  margin-left: 10%;
+  transform: rotate(0.5deg);
+  animation-delay: 0.2s;
+}
+.text-box:nth-child(odd) {
+  margin-right: 10%;
+  transform: rotate(-0.5deg);
+  animation-delay: 0.4s;
+}
+
+/* Hover effect resets tilt and enlarges */
+.text-box:hover {
+  transform: scale(1.03) rotate(0deg);
+  box-shadow: 0 0 40px rgba(0, 170, 255, 0.4);
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Hero logo */
+.hero-logo {
+  width: 160px;
+  display: block;
+  margin: 0 auto 1rem auto;
+  filter: drop-shadow(0 0 15px rgba(0, 170, 255, 0.4));
+  border-radius: 15px;
+}
+
+/* Team Section */
+.team-section {
+  text-align: center;
+  margin-top: 3rem;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.team-member {
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
   background: rgba(10, 15, 24, 0.6);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   width: 200px;
   padding: 1rem;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
   box-shadow: 0 0 15px rgba(0, 170, 255, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -104,6 +336,7 @@ nav a:hover {
   font-size: 0.9rem;
 }
 
+<<<<<<< HEAD
 /* Footer stays at bottom */
 .footer {
   text-align: center;
@@ -115,6 +348,9 @@ nav a:hover {
   /* No extra changes needed if body is flex column */
 }
 
+=======
+/* Contact form */
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -142,6 +378,7 @@ nav a:hover {
 .contact-form button:hover {
   background-color: #0088cc;
 }
+<<<<<<< HEAD
 
 /* Architecture / Agents sections */
 .architecture, .agents {
@@ -268,3 +505,5 @@ nav a:hover {
 .contact-details a:hover {
   text-decoration: underline;
 }
+=======
+>>>>>>> ab220416f93e8a52522b31372d7f1b6b619269b0
