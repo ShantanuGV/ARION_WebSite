@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="text-box contact" style={{width: "90%", marginBottom: "5rem" }}>
+    <section className="text-box contact" style={{width: "auto", marginBottom: "5rem" }}>
       <h2>Contact Us</h2>
       <p>We’d love to hear from you! Reach out for collaboration or inquiries.</p>
 
