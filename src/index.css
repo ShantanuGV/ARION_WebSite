@@ -277,7 +277,25 @@ nav a:hover {
 .contact-details a:hover {
   text-decoration: underline;
 }
+  /* Text boxes: shorter and stacked vertically */
+  .text-box {
+    width: 90%;
+    max-width: 350px; /* make boxes a bit shorter */
+    padding: 1.5rem;
+    margin: 1rem auto; /* stack vertically with spacing */
+    text-align: center;
+  }
+
+  /* If you have multiple boxes in a row, force column layout */
+  .problem-risk-extension-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 /* Mobile-only: stack Risk + External Data vertically */
+
+}
 @media (max-width: 768px) {
   .row-container {
     flex-direction: column !important; /* stack vertically */
@@ -289,4 +307,3 @@ nav a:hover {
     width: 90% !important; /* make text-box take most of mobile width */
     max-width: 350px;      /* optional: limit max width */
   }
-}
