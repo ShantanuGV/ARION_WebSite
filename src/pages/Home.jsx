@@ -83,7 +83,7 @@ function Home() {
     }}
   >
     <h2>📡 External Data Sources</h2>
-    <ul style={{ listStylePosition: "inside", padding: 0,width:"auto" }}>
+    <ul style={{ listStylePosition: "inside", padding: 0,width:"245" }}>
       <li>AlphaVantage — Market Data</li>
       <li>Yahoo Finance — Historical Data</li>
       <li>News API — Sentiment Data</li>
