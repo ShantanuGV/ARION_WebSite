@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="text-box" style={{ width: "100%",marginTop: "8rem",marginBottom: "8rem" }}>
+    <section className="text-box" style={{ width: "auto",marginTop: "8rem",marginBottom: "8rem" }}>
       <h2>About ARION</h2>
       <p>
         ARION is built to empower decision-makers by transforming complex market data into actionable insights.
