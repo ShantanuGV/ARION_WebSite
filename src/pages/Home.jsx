@@ -37,7 +37,7 @@ function Home() {
 
 
       {/* Project Summary */}
-      <div className="text-box" style={{ width: "100%" }}>
+      <div className="text-box" style={{ width: "auto" }}>
 
         <h2>Project Summary</h2>
         <p>
