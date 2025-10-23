@@ -106,23 +106,23 @@ function Home() {
 
           <div className="team-member">
             <img src="https://via.placeholder.com/150" alt="Team Member 1" />
-            <h4>Rakesh</h4>
-            <p>Lead Developer</p>
+            <h4>Shantanu</h4>
+            
           </div>
           <div className="team-member">
             <img src="https://via.placeholder.com/150" alt="Team Member 2" />
-            <h4>Person 2</h4>
-            <p>Data Scientist</p>
+            <h4>Bhavik</h4>
+            
           </div>
           <div className="team-member">
             <img src="https://via.placeholder.com/150" alt="Team Member 3" />
-            <h4>Person 3</h4>
-            <p>AI Engineer</p>
+            <h4>Snehal</h4>
+            
           </div>
           <div className="team-member">
             <img src="https://via.placeholder.com/150" alt="Team Member 4" />
-            <h4>Person 4</h4>
-            <p>Designer</p>
+            <h4>Bhumi</h4>
+            
           </div>
         </div>
       </div>
