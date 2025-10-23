@@ -277,7 +277,22 @@ nav a:hover {
 .contact-details a:hover {
   text-decoration: underline;
 }
-  /* Text boxes: shorter and stacked vertically */
+
+/* Mobile-only: stack Risk + External Data vertically */
+
+
+@media (max-width: 768px) {
+  .row-container {
+    flex-direction: column !important; /* stack vertically */
+    align-items: center; /* center horizontally */
+    gap: 1.5rem; /* spacing between boxes */
+  }
+
+  .row-container .text-box {
+    width: 90% !important; /* make text-box take most of mobile width */
+    max-width: 350px;      /* optional: limit max width */
+  }
+    /* Text boxes: shorter and stacked vertically */
   .text-box {
     width: 90%;
     max-width: 350px; /* make boxes a bit shorter */
@@ -293,17 +308,4 @@ nav a:hover {
     align-items: center;
     gap: 1rem;
   }
-/* Mobile-only: stack Risk + External Data vertically */
-
 }
-@media (max-width: 768px) {
-  .row-container {
-    flex-direction: column !important; /* stack vertically */
-    align-items: center; /* center horizontally */
-    gap: 1.5rem; /* spacing between boxes */
-  }
-
-  .row-container .text-box {
-    width: 90% !important; /* make text-box take most of mobile width */
-    max-width: 350px;      /* optional: limit max width */
-  }
