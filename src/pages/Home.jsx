@@ -92,7 +92,7 @@ function Home() {
 </div>
 
       {/* Team Section */}
-      <div className="text-box team-section" style={{ width: "100%" }}>
+      <div className="text-box team-section" style={{ width: "auto" }}>
         <h2>Our Team</h2>
         <div
           className="team-container"
